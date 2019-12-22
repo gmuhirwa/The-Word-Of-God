@@ -1,49 +1,49 @@
 
 body {
 	background-color: maroon;
-	
+
 }
 
 .container {
 	margin-top: 70px;
 	padding-top: 20px;
-	width: 570px;
-	height: 340px;
+	width: 500px;
+	height: 300px;
 	border: 2px solid #3F0C1F;
 	box-shadow: 0 1px 10px 1px #cccccc;
 }
 
 h1 {
-	color: #557c3e;
+	color: yellow;
 	text-align: center;
 	font-family: 'Lora', serif;
 	font-size: 2em;
 	font-weight: bold;
-	text-shadow: 1px 4px 1px black;
+	text-shadow: 1px 6px 1px black;
 	text-transform: uppercase;
 
 }
 
 hr {
 	width: 250px;
-	margin-top: 100px;
-	border-width: 0 0 1px 0;
-	opacity: .2;
-
+	margin-top: 70px;
+	border-width: 0 0 0px 0;
+	border-top: 2px dashed white;
+	
 }
 
 p {
 	color: white;
 	font-family: 'Lora', serif;
 	font-size: 24px;
-	padding-top: 20px;
+	padding-top: 10px;
+
 	
 }
 
 p:nth-child(3) {
 	color: white;
-	opacity: .2;
-	width: 570px;
+	width: 500px;
 	font-size: 14px;
 	padding-bottom: 20px;
 }
