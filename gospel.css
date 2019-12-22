@@ -43,7 +43,7 @@ p {
 }*/
 
 span {
-  color: black;
+  color: yellow;
   font-weight: bold;
 }
 #messenger p {
@@ -52,4 +52,5 @@ span {
 .glyphicon {
   padding-bottom: 4px;
   font-size: 37px;
+  color: yellow;
 }
