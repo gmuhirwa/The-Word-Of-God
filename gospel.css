@@ -1,18 +1,20 @@
 body {
-  background-color: maroon;
+  background-color: black;
+  color: gold;
 }
 
 .container {
   margin-top: 70px;
   padding-top: 7px;
-  width: 700px;
-  height: 380px;
-  border: 2px solid #3F0C1F;
-  box-shadow: 0 1px 10px 1px #cccccc;
+  width: 600px;
+  height: 400px;
+  border: 2px dashed gold;
+  border-radius: 2em;
+  box-shadow: 0 1px 10px 2px white;
 }
 
 h1 {
-  color: yellow;
+  color: gold;
   text-align: center;
   padding-bottom: 7px;
   font-family: 'Lora', serif;
@@ -23,10 +25,10 @@ h1 {
 }
 
 hr {
-  width: 250px;
+  width: 350px;
   margin-top: 40px;
   border-width: 0 0 0px 0;
-  border-top: 2px dashed yellow;
+  border-top: 2px dashed gold;
 }
 
 p {
@@ -36,28 +38,13 @@ p {
   padding-top: 2px;
   text-align: justify;
   text-align: center;
-  width: 640px;
 }
-
-/*#word > p:nth-child(3) {
-  color: white;
-  width: 500px;
-  font-size: 12px;
-}*/
-
-span, #chri, #mix, #pass, #feast {
-  color: yellow;
+.gospel p {
+  color: gold;
   font-weight: bold;
 }
-#messenger p {
-  font-size: 14px;
-  text-align: center;
-  padding-bottom: 2px;
+#not {
+  color: white;
+  font-weight: bold;
 }
-.glyphicon {
-  top: 12px;
-  padding-bottom: 2px;
-  font-size: 37px;
-  color: yellow;
-  text-align: center;
-}
+
